@@ -1,0 +1,25 @@
+/* -- Header container -- */
+.header {
+    width: 100%;
+    /* -- */
+    background: rgba(0, 96, 127, 0.6);
+    /* -- */
+    position: absolute;
+    z-index: 10;
+}
+/* -- Header wrapper -- */
+.header-wrapper {
+    padding: 10px 0px;
+    /* -- */
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* -- Navigation container -- */
+.navbar {
+    width: 45%;
+    /* -- */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

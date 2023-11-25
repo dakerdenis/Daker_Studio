@@ -1,0 +1,189 @@
+/* -- Bootstrap Phones -- */
+@media screen and (min-width: 320px) {
+    /* -- Wrapper -- */
+    .wrapper {
+        max-width: 280px;
+        flex-wrap: wrap;
+    }
+    /* -- Section Wrapper -- */
+    .section-wrapper {
+        padding: 35px 0px;
+    }
+    /* -- Subtitle -- */
+    .subtitle {
+        width: 280px;
+        margin: 0 auto;
+        /* -- */
+        text-align: center;
+    }
+    /* -- Content-container -- */
+    .content-container {        
+        margin-top: 20px;
+        /* -- */
+        flex-direction: column;
+        justify-content: center;
+    }
+    /* ---- Semantic Classes ---- */
+        /* -- Service -- */
+        .service {
+            margin: 15px 0px;
+        }
+        /* -- */
+        .service-img {
+            box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+        }
+        /* -- */
+        .service-icon {
+            fill: #00607F;
+        }
+        /* -- */
+        .service-name {
+            color: #00607F;
+        }
+        /* -- */
+        .service-text {
+            color: #000;
+        }
+        /* -- Project -- */
+        .project {
+            margin: 15px 0px;
+            width: 280px;
+        }
+        /* -- Info -- */
+        .info-title {
+            width: 300px;
+            margin: 0 auto;
+        }
+        /* -- */
+        .info-text {
+            width: 300px;
+            margin: 15px auto;
+            /* -- */
+            text-align: justify;
+        }
+        /* -- */
+        .info-item {
+            width: 300px;
+            margin: 10px auto;
+        }
+        /* -- Price -- */
+        .price {
+            width: 280px;
+            margin: 15px 0px;
+        }
+        /* -- Contact -- */
+        /* -- */
+        .top {
+            flex-direction: column;
+            justify-content: center;
+            /* -- */
+            align-items: center;
+        }
+        /* -- */
+        .form-label {
+            margin: 15px 0px;
+            /* -- */
+            justify-content: center;
+            align-items: center;
+        }
+        /* -- */
+        .form-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* -- */
+        .input-label {
+            width: 280px;
+            margin: 0px;
+        }
+        /* -- */
+        .input-text {
+            width: 300px;
+        }
+        /* -- */
+        .bottom {
+            flex-direction: column
+        }
+        /* -- */
+        .contact-button {
+            margin: 10px 0px;
+        }
+}
+/* -- Bootstrap Notebooks -- */
+@media screen and (min-width: 1024px) {
+    /* ---- Technical Classes ---- */
+        /* -- Wrapper -- */
+        .wrapper {
+            max-width: 1050px;
+        }
+        /* -- Section Wrapper -- */
+        .section-wrapper {
+            padding: 55px 0px;
+        }
+        /* -- Subtitle -- */
+        .subtitle {
+            width: 600px;
+        }
+        /* -- Content container -- */
+        .content-container {
+            margin-top: 45px;
+            /* -- */
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+    /* ---- Semantic Classes ---- */
+        /* -- Section: Services -- */
+
+        /* -- Section: Projects -- */
+        /* -- */
+        .project {
+            width: 240px;
+            height: 300px;
+        }
+
+        /* -- Section: Info -- */
+        /* -- */
+        .info-title {
+            width: 550px;
+            margin: 0px 0px;
+        }
+        /* -- */
+        .info-text {
+            width: 590px;
+            margin: 25px 0px;
+        }
+        /* -- */
+        .info-item {
+            width: 540px;
+            margin: 0px 0px;
+        }
+
+        /* -- Section: Pricing -- */
+        /* -- */
+        .price {
+            width: 330px;
+        }
+
+        /* -- Section: Contact -- */
+        /* -- */
+        .top {
+            flex-direction: row;
+        }
+        /* -- */
+        .form-label {
+            margin-right: 30px;
+            /* -- */
+            justify-content: left;
+            align-items: left;
+        }
+        /* -- */
+        .input-text {
+            width: 550px;
+        }
+        /* -- */
+        .bottom {
+            flex-direction: row;
+        }
+}

@@ -1,0 +1,117 @@
+/* -- Basic CSS -- */
+button, a {
+    cursor: pointer;
+    text-decoration: none;
+    /* -- */
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    /* -- */
+    color: #000;
+    background: none;
+    border: none;
+    /* -- */
+    transition: all 0.8s ease-out;
+}
+/* ---- Semantic Classes ---- */
+    /* -- Header Link -- */
+    .header-link {
+        color: #E1E1E1;
+        /* -- */
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+    /* -- */
+    .header-link:hover {
+        color: #FFF;
+        /* -- */
+        transition: all 0.8s ease-in;
+    }
+
+    /* -- Promo Link -- */
+    .promo-link {
+        margin-top: 15px;
+        padding: 10px 15px;
+        /* -- */
+        color: #FFF;
+        background: none;
+        /* -- */
+        border: 2px solid #FFF;
+    }
+    /* -- */
+    .promo-link:hover {
+        background: #00607F;
+        border: 2px solid #00607F;
+    }
+
+    /* -- Project Link -- */
+    .project-link {
+        height: 25px;
+        /* -- */
+        margin: 10px auto;
+        padding: 5px 5px;
+        /* -- */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        /* -- */
+        color: #00607F;
+        background: #FFF;
+        /* -- */
+        font-size: 1.125rem;
+        font-weight: 500;
+        /* -- */
+        border: 2px solid #00607F;
+        border-radius: 20px;
+    }
+    /* -- */
+    .project-link:hover {
+        color: #FFF;
+        background: #00607F;
+    }
+    /* -- */
+    .link-icon {
+        width: 25px;
+        height: 25px;
+        /* -- */
+        margin-right: 10px;
+    }
+
+    /* -- Price Link -- */
+    .price-link {
+        margin-bottom: 20px;
+        padding: 5px 5px;
+        /* -- */
+        color: #00607F;
+        background: inherit;
+        /* -- */
+        font-size: 1.125rem;
+        font-weight: 500;
+        /* -- */
+        border: 1px solid #00607F;
+    }
+    /* -- */
+    .price-link:hover {
+        color: #FFF;
+        background: #00607F;
+    }
+    
+    /* -- Contact Button -- */
+    .contact-button {
+        margin-right: 30px;
+        padding: 5px 15px;
+        /* -- */
+        font-size: 1rem;
+        font-weight: 600;
+        /* -- */
+        color: #00607F;
+        background: #FFF;
+        /* -- */
+        border: 2px solid #00607F;
+    }
+    /* -- */
+    .contact-button:hover {
+        color: #FFF;
+        background: #00607F;
+    }
