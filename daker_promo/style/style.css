@@ -111,3 +111,263 @@ h6 {
     font-size: inherit;
     font-weight: 400;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact___container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.contact__wrapper {
+    position: absolute;
+    height: 100%;
+    width: 850px;
+    background-color: #4b4b4b44;
+    left: 15%;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+}
+
+.contact__block {
+
+    width: 850px;
+    height: 100%;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__block1 {
+    position: absolute;
+
+    transition: left 1s ease-in-out;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideLeft {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+@keyframes slideLeftBack {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes slideRightBack {
+    0% {
+        right: 0;
+    }
+
+    100% {
+        right: -100%;
+    }
+}
+
+.contact__block2 {
+    position: absolute;
+    right: -100%;
+    transition: left 1s ease-in-out;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.contact__block__name {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.line_contact {
+    height: 1px;
+    width: 135px;
+    background-color: #fff;
+    margin-top: 30px;
+    transform: translateX(4px);
+
+}
+
+.contact__block__data {
+    margin-top: 20px;
+}
+
+.contact__block__data__number-name {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact__block__data_numbers {
+    margin-top: 28px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contact__block__data_numbers p {
+    margin-bottom: 14px;
+}
+
+.contact__block__data__email-name {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 48px;
+    margin-bottom: 28px;
+}
+
+.contact__block__data_email {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+.contact__navigation {
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contact__navigation__numbers {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.contact__navigation__numbers span {
+    font-size: 20px;
+}
+
+.contact__navigation__line1 {
+    width: 111px;
+    height: 1px;
+    background-color: #FFF;
+    margin-bottom: 25px;
+}
+
+.contact__navigation__line2 {
+    width: 50px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.contact__block__name_arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.contact__block__arrow__form {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    cursor: pointer;
+}
+
+.contact__block__arrow__form p {
+    font-family: Montserrat;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.contact__form__container {
+    width: 100%;
+    background-color: red;
+}
+
+.contact__form__name__line {}
+
+.contact__form__name {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contact__form__line {}
+
+.contact__form__form {}
+
+.contact__form__input {}
+
+.contact__form__button {}
