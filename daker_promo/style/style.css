@@ -116,6 +116,19 @@ h6 {
 
 
 
+.main_wrapper{
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    background-image: url('../imgs/daker1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.main_wrapper::-webkit-scrollbar{
+    width: 0;
+}
 
 
 
@@ -132,13 +145,15 @@ h6 {
 
 
 
+.main__packages__contact{
 
-
-
-
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(5px);
+}
 
 .contact___container {
-    height: 100%;
+    height: 540px;
     width: 100%;
     position: relative;
 }
@@ -147,10 +162,10 @@ h6 {
     position: absolute;
     height: 100%;
     width: 850px;
-    background-color: #4b4b4b44;
+    background-color: #4b4b4b81;
     left: 15%;
     overflow: hidden;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(20px);
 }
 
 .contact__block {
@@ -222,7 +237,7 @@ h6 {
 
 .contact__block__name {
     color: #FFF;
-    font-family: Montserrat;
+
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -244,7 +259,7 @@ h6 {
 
 .contact__block__data__number-name {
     color: #FFF;
-    font-family: Montserrat;
+
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -254,7 +269,7 @@ h6 {
 .contact__block__data_numbers {
     margin-top: 28px;
     color: #FFF;
-    font-family: Montserrat;
+
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -267,7 +282,7 @@ h6 {
 
 .contact__block__data__email-name {
     color: #FFF;
-    font-family: Montserrat;
+
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -278,7 +293,7 @@ h6 {
 
 .contact__block__data_email {
     color: #FFF;
-    font-family: Montserrat;
+
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -301,7 +316,7 @@ h6 {
 
 .contact__navigation__numbers {
     color: #FFF;
-    font-family: Montserrat;
+
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -341,7 +356,7 @@ h6 {
 }
 
 .contact__block__arrow__form p {
-    font-family: Montserrat;
+
     font-size: 25px;
     color: #fff;
     font-weight: 500;
@@ -350,24 +365,94 @@ h6 {
 
 .contact__form__container {
     width: 100%;
-    background-color: red;
+
 }
 
 .contact__form__name__line {}
 
 .contact__form__name {
     color: #FFF;
-    font-family: Montserrat;
+
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
-.contact__form__line {}
+.contact__form__line {
+    height: 1px;
+    width: 140px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
-.contact__form__form {}
 
-.contact__form__input {}
+.arrow__contact__form{
+    position: absolute;
+    bottom: 20px;
+}
 
-.contact__form__button {}
+.arrow__contact__contact {
+    position: absolute;
+    bottom: 20px;
+    flex-direction: row-reverse;
+}
+
+
+.arrow__contact__contact img{
+    transform: translateY(5px) rotate(180deg);
+    margin-right: 8px;
+}
+
+
+
+.contact__form__form {
+    width: 100%;
+    height: 100%;
+}
+
+.contact__form__input {
+    height: 40px;
+    width: 100%;
+
+    margin-bottom: 10px;
+}
+.contact__form__input input {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #fff;
+    padding: 5px 0px;
+    color: #fff;
+    background-color: rgb(112, 112, 112, 0.0);
+}
+input::placeholder {
+    color: #fff;
+}
+.contact__form__button{
+    margin-top: 30px;
+}
+.contact__form__button button {
+    display: flex;
+    height: 41px;
+    width: 170px;
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid #fff;
+    background-color: rgb(112, 112, 112, 0.0)  ;
+    color: #fff;
+}
+.contact__form__inputmessage{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #fff;
+}
+.contact__form__inputmessage textarea{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    resize: none;
+    background-color: rgb(112, 112, 112, 0.0);
+}
