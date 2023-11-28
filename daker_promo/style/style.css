@@ -132,7 +132,15 @@ h6 {
 
 
 
-
+.main__desc {
+    width: 500px;
+    margin:  0 auto;
+}
+.main__desc__name {
+    font-size: 20px;
+}
+.main__desc__text {
+}
 
 
 
